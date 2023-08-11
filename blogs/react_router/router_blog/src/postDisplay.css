@@ -1,0 +1,9 @@
+.postDisplay{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.postDisplay li{
+    list-style-type: none;
+}

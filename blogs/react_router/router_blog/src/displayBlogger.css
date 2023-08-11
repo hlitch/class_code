@@ -1,0 +1,13 @@
+.blogger {
+    border: 1px solid black;
+    text-align: center;
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}

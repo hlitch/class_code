@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #pictureDisplay {
+            display: flex;
+            border: 1px solid blue;
+            padding: 3em;
+            justify-content: space-around;
+            /*align-content: space-around;*/
+        }
+
+        #nameElem {
+            display: flex;
+
+            justify-content: space-around;
+        }
+
+        #catPictureDisplay {
+            display: flex;
+            border: 1px solid blue;
+            padding: 3em;
+            justify-content: space-between;
+            /*align-content: space-around;*/
+        }
+
+        #catNameElem {
+            display: flex;
+
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="inputText">
+    <input type="submit" id="inputButton">
+
+    <hr>
+    <div id="fullDisplay">
+
+    </div>
+    <div id="nameElem"></div>
+    <ul id="pictureDisplay"></ul>
+
+    
+    <button id="next">Next picture</button>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="pictures.js"></script>
+</body>
+
+</html>
