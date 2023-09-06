@@ -7,17 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body,
+        html {
+            font-size: 18px;
+        }
+
         #pictureDisplay {
             display: flex;
             border: 1px solid blue;
             padding: 3em;
             justify-content: space-around;
+            font-size: 18px;
             /*align-content: space-around;*/
         }
 
         #nameElem {
             display: flex;
-
+            font-size: 18px;
             justify-content: space-around;
         }
 
@@ -34,6 +40,18 @@
 
             justify-content: space-around;
         }
+
+        #inputButton,
+        #next,
+        #previous {
+            font-size: 18px;
+
+        }
+
+        #text {
+            display: flex;
+            justify-content: center;
+        }
     </style>
 </head>
 
@@ -48,8 +66,9 @@
     <div id="nameElem"></div>
     <ul id="pictureDisplay"></ul>
 
-    
+
     <button id="next">Next picture</button>
+    <button id="previous">previous picture</button>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script src="pictures.js"></script>
